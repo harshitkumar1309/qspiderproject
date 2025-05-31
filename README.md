@@ -1,0 +1,2 @@
+# qspiderproject
+Automation class
