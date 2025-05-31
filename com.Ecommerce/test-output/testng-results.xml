@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[==server connected successfully==]]>
+    </line>
+    <line>
+      <![CDATA[==database connected successfully]]>
+    </line>
+    <line>
+      <![CDATA[browser chrome launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[browser closed sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[==database closed successfully==]]>
+    </line>
+    <line>
+      <![CDATA[==server closed successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-05-31T11:59:52 IST" name="Default suite" finished-at="2025-05-31T12:00:02 IST" duration-ms="10175">
+    <groups>
+    </groups>
+    <test started-at="2025-05-31T11:59:52 IST" name="Default test" finished-at="2025-05-31T12:00:02 IST" duration-ms="10175">
+      <class name="com.Ecommerce.testScripts.loginModule.ValidLoginTest">
+        <test-method is-config="true" signature="toConnectServer()[pri:0, instance:com.Ecommerce.testScripts.loginModule.ValidLoginTest@7e057f43]" started-at="2025-05-31T11:59:52 IST" name="toConnectServer" finished-at="2025-05-31T11:59:52 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==server connected successfully==]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toConnectServer -->
+        <test-method is-config="true" signature="toConnectDatabase()[pri:0, instance:com.Ecommerce.testScripts.loginModule.ValidLoginTest@7e057f43]" started-at="2025-05-31T11:59:52 IST" name="toConnectDatabase" finished-at="2025-05-31T11:59:52 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==database connected successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toConnectDatabase -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Ecommerce.testScripts.loginModule.ValidLoginTest@7e057f43]" started-at="2025-05-31T11:59:52 IST" name="setUp" finished-at="2025-05-31T11:59:59 IST" duration-ms="7292" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[browser chrome launched successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="doValidLogin()[pri:0, instance:com.Ecommerce.testScripts.loginModule.ValidLoginTest@7e057f43]" started-at="2025-05-31T11:59:59 IST" name="doValidLogin" finished-at="2025-05-31T12:00:02 IST" duration-ms="2589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doValidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Ecommerce.testScripts.loginModule.ValidLoginTest@7e057f43]" started-at="2025-05-31T12:00:02 IST" name="tearDown" finished-at="2025-05-31T12:00:02 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[browser closed sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="toCloseDatabase()[pri:0, instance:com.Ecommerce.testScripts.loginModule.ValidLoginTest@7e057f43]" started-at="2025-05-31T12:00:02 IST" name="toCloseDatabase" finished-at="2025-05-31T12:00:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==database closed successfully==]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toCloseDatabase -->
+        <test-method is-config="true" signature="toCloseServer()[pri:0, instance:com.Ecommerce.testScripts.loginModule.ValidLoginTest@7e057f43]" started-at="2025-05-31T12:00:02 IST" name="toCloseServer" finished-at="2025-05-31T12:00:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==server closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toCloseServer -->
+      </class> <!-- com.Ecommerce.testScripts.loginModule.ValidLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
